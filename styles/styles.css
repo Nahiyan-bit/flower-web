@@ -7,7 +7,7 @@ body{
     border-radius: 5px;
     border: 0px;
     color: #ffffff;
-    padding: 12px;
+    padding: 12px 20px;
     font-size: 15px;
     font-weight:  600;
 }
@@ -33,4 +33,5 @@ body{
 p{
     margin-top: 20px;
     color:#474747;
+    margin-bottom: 20px;
 }
