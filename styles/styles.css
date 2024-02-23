@@ -11,13 +11,26 @@ body{
     font-size: 15px;
     font-weight:  600;
 }
-.nav{
-    margin: 20px 100px;
-}
-.header{
+.banner{
+    padding: 20px 150px 0px 150px;
     background-color: #FCEEF1;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.banner-image{
-    width: 500px;
+.banner-content{
+    max-width: 500px;
+}
+.banner .banner-image{
+    width: 400px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 750;
+    margin-bottom: 0px;
+    color: #181818;
+}
+p{
+    margin-top: 20px;
+    color:#474747;
 }
