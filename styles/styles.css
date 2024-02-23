@@ -12,9 +12,12 @@ body{
     font-weight:  600;
 }
 .nav{
-    margin-top: 0px;s
+    margin: 20px 100px;
 }
 .header{
     background-color: #FCEEF1;
     display: flex;
+}
+.banner-image{
+    width: 500px;
 }
