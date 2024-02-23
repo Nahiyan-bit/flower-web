@@ -1,0 +1,20 @@
+/* Open Style For All */
+body{
+  font-family: "Open Sans", sans-serif;
+}
+.btn-color {
+    background-color: #E55473;
+    border-radius: 5px;
+    border: 0px;
+    color: #ffffff;
+    padding: 12px;
+    font-size: 15px;
+    font-weight:  600;
+}
+.nav{
+    margin-top: 0px;s
+}
+.header{
+    background-color: #FCEEF1;
+    display: flex;
+}
