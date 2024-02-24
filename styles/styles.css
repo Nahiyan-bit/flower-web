@@ -110,7 +110,8 @@ singup-btn{
 
 /* Footer Banner */
 .footer{
-    padding: 80px 200px;
+    margin: 0px;
+    padding: 90px 350px;
     background-color: #111010;
     text-align: center;
     justify-content: center;
@@ -118,14 +119,18 @@ singup-btn{
 .footer-title{
     font-size: 36px;
     text-align: center;
+    margin-bottom: 5px;
 }
 .footer-paragraph{
     color: #cfcece;
     font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
 }
 #sp{
     color: #ffffff;
 }
 .footer-paragraph2{
     color: #595959;
+    font-size: 12px;
 }
