@@ -107,3 +107,25 @@ singup-btn{
 .insta-img{
     margin-right: 20px;
 }
+
+/* Footer Banner */
+.footer{
+    padding: 80px 200px;
+    background-color: #111010;
+    text-align: center;
+    justify-content: center;
+}
+.footer-title{
+    font-size: 36px;
+    text-align: center;
+}
+.footer-paragraph{
+    color: #cfcece;
+    font-size: 12px;
+}
+#sp{
+    color: #ffffff;
+}
+.footer-paragraph2{
+    color: #595959;
+}
