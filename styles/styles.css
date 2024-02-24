@@ -112,8 +112,12 @@ singup-btn{
 .final-section-content{
     text-align: center;
 }
-
-
+.Space{
+    padding-right: 200px;
+}
+.one-line{
+    padding: 200px;
+}
 
 
 /* Footer Banner */
