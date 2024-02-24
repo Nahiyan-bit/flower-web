@@ -11,9 +11,11 @@ body{
     font-size: 15px;
     font-weight:  600;
 }
+
+/* Header Banner Section */
 .banner{
     padding: 20px 170px 0px 170px;
-    background-color: #FCEEF1;
+    background-color: #ffe7ec;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,8 +32,50 @@ body{
     margin-bottom: 0px;
     color: #181818;
 }
-p{
+.banner-paragraph{
     margin-top: 20px;
     color:#474747;
     margin-bottom: 20px;
+}
+
+/* hot deal section */
+.hot-deal{
+    padding: 70px 250px 80px 250px;
+    background-color: #FDF6F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.hot-deal-content{
+    max-width: 550px;
+    /* align-content: center;
+    align-items: center; */
+}
+.hot-deal .hot-deal-image{
+    width: 200px;
+}
+.hot-deal-title{
+    font-size: 30px;
+    font-weight: 750;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+    color: #181818;
+}
+.hot-deal-paragraph{
+    text-align: center;
+    margin-top: 20px;
+    color:#474747;
+    margin-bottom: 20px;
+
+#hot-deal-button{
+    align-items: baseline;
+}
+
+}
+span{
+    color: #E55473;
+}
+singup-btn{
+    text-align: center;
 }
