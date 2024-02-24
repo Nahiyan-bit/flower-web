@@ -82,7 +82,6 @@ singup-btn{
 .instagram{
     padding: 70px 250px 40px 250px;
     text-align: center;
-    /* justify-content: space-around */
 }
 .instagram-title{
     font-size: 26px;
@@ -103,8 +102,8 @@ singup-btn{
     display: flex;
     align-content: center;
     justify-content: center;
+
 }
 .insta-img{
     margin-right: 20px;
-    align-items: center;
 }
