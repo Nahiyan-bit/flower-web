@@ -81,7 +81,6 @@ singup-btn{
 /* Instagram Section */
 .instagram{
     padding: 70px 250px 40px 250px;
-    align-items: center;
     text-align: center;
     /* justify-content: space-around */
 }
@@ -101,11 +100,11 @@ singup-btn{
     margin-bottom: 0px;
 }
 .insta-img-container{
-    margin-top: 0px;
     display: flex;
-    align-items: center;
-    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 .insta-img{
     margin-right: 20px;
+    align-items: center;
 }
