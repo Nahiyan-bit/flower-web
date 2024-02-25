@@ -63,8 +63,7 @@ body{
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    padding: 30px 150px 60px 150px;
-    
+    padding: 30px 150px 0px 150px;
 }
 #img1-test{
     background-color: #F1DDE7;
@@ -81,11 +80,20 @@ body{
     border-radius: 500px 500px 0px 0px;
     border: 0px;
 }
+.flower-name-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0px 150px 60px 150px;
+}
 
 /* hot deal section */
 .hot-deal{
     padding: 70px 250px 80px 250px;
-    background-color: #FDF6F8;
+    background-color: #f9dfe6;
     display: flex;
     align-items: center;
     justify-content: space-around
