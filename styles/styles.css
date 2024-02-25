@@ -34,13 +34,14 @@ body{
 .banner-paragraph{
     margin-top: 20px;
     color:#474747;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 /* Feature Section */
 .feature{
-    padding: 0px 450px;
+    padding: 30px 450px;
     text-align: center;
+    align-items: baseline;
 }
 .feature-title{
     font-size: 26px;
@@ -60,10 +61,9 @@ body{
 .feature-img-container{
     /* background-color: #E55473; */
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    gap: 60px;
-    padding: 12px 150px;
+    gap: 10px;
+    padding: 30px 150px 60px 150px;
     
 }
 #img1-test{
@@ -124,7 +124,7 @@ singup-btn{
 }
 /* Instagram Section */
 .instagram{
-    padding: 70px 250px 40px 250px;
+    padding: 20px 250px 40px 250px;
     text-align: center;
 }
 .instagram-title{
@@ -155,25 +155,24 @@ singup-btn{
 
 .final-deal{
     text-align: center;
-    background-image: url(".final-section-image");
-    max-width: 500px;
+}
+.final-deal-contant{
+
 }
 .final-section-title{
     color: #181818;
     font-size: 28px;
     padding-bottom: 0px;
-
+    margin-bottom: 0px
 }
 .final-section-paragraph{
     color:#9FA1A2;
     font-size: 12px;
     padding-top: 5px;
 }
-.final-section-image{
-    /* max-width: 50px; */
-    background-image: url(".final-section-image");
+.input{
+    width: 100%;
 }
-
 /* Footer Banner */
 .footer{
     margin: 0px;
