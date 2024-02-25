@@ -38,6 +38,31 @@ body{
     margin-bottom: 20px;
 }
 
+/* Feature Section */
+.feature{
+    padding: 90px 450px;
+    text-align: center;
+}
+.feature-title{
+    font-size: 26px;
+    font-weight: 750;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+    color: #181818;
+}
+.feature-paragraph{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    color:#9FA1A2;
+    margin-bottom: 0px;
+}
+/* 
+    color:#9FA1A2;
+    font-size: 12px;
+    padding-top: 5px; */
+
 /* hot deal section */
 .hot-deal{
     padding: 70px 250px 80px 250px;
@@ -109,16 +134,21 @@ singup-btn{
 }
 /* Final Section */
 
-.final-section-content{
+.latest-deal{
     text-align: center;
+    padding: 0px;
 }
-.Space{
-    padding-right: 200px;
-}
-.one-line{
-    padding: 200px;
-}
+.final-section-title{
+    color: #181818;
+    font-size: 28px;
+    padding-bottom: 0px;
 
+}
+.final-section-paragraph{
+    color:#9FA1A2;
+    font-size: 12px;
+    padding-top: 5px;
+}
 
 /* Footer Banner */
 .footer{
