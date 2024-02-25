@@ -11,7 +11,6 @@ body{
     font-size: 15px;
     font-weight:  600;
 }
-
 /* Header Banner Section */
 .banner{
     padding: 20px 170px 0px 170px;
@@ -40,7 +39,7 @@ body{
 
 /* Feature Section */
 .feature{
-    padding: 90px 450px;
+    padding: 0px 450px;
     text-align: center;
 }
 .feature-title{
@@ -52,16 +51,36 @@ body{
     color: #181818;
 }
 .feature-paragraph{
+    color:#9FA1A2;
     text-align: center;
     font-size: 12px;
     margin-top: 20px;
-    color:#9FA1A2;
     margin-bottom: 0px;
 }
-/* 
-    color:#9FA1A2;
-    font-size: 12px;
-    padding-top: 5px; */
+.feature-img-container{
+    /* background-color: #E55473; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+    padding: 12px 150px;
+    
+}
+#img1-test{
+    background-color: #F1DDE7;
+    border-radius: 500px 500px 0px 0px;
+    border: 0px;
+}
+#img2-test{
+    background-color: #D9EFF0;
+    border-radius: 500px 500px 0px 0px;
+    border: 0px;
+}
+#img3-test{
+    background-color: #E3EBDB;
+    border-radius: 500px 500px 0px 0px;
+    border: 0px;
+}
 
 /* hot deal section */
 .hot-deal{
@@ -88,7 +107,7 @@ body{
 }
 .hot-deal-paragraph{
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 20px;
     color:#474747;
     margin-bottom: 20px;
@@ -134,9 +153,10 @@ singup-btn{
 }
 /* Final Section */
 
-.latest-deal{
+.final-deal{
     text-align: center;
-    padding: 0px;
+    background-image: url(".final-section-image");
+    max-width: 500px;
 }
 .final-section-title{
     color: #181818;
@@ -148,6 +168,10 @@ singup-btn{
     color:#9FA1A2;
     font-size: 12px;
     padding-top: 5px;
+}
+.final-section-image{
+    /* max-width: 50px; */
+    background-image: url(".final-section-image");
 }
 
 /* Footer Banner */
