@@ -1,7 +1,8 @@
 /* Open Style For All */
-body{
-  font-family: "Open Sans", sans-serif;
+body {
+    font-family: "Open Sans", sans-serif;
 }
+
 .btn-color {
     background-color: #E55473;
     border-radius: 5px;
@@ -9,41 +10,47 @@ body{
     color: #ffffff;
     padding: 12px 20px;
     font-size: 15px;
-    font-weight:  600;
+    font-weight: 600;
 }
+
 /* Header Banner Section */
-.banner{
+.banner {
     padding: 20px 170px 0px 170px;
     background-color: #ffe7ec;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.banner .banner-image{
+
+.banner .banner-image {
     width: 400px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 50px;
     font-weight: 750;
     margin-bottom: 0px;
     color: #181818;
 }
-.banner-paragraph{
+
+.banner-paragraph {
     margin-top: 20px;
-    color:#474747;
+    color: #474747;
     margin-bottom: 0px;
 }
 
 /* Feature Section */
-.feature{
+.feature {
     padding: 30px 450px;
     text-align: center;
     align-items: baseline;
 }
-.feature-title{
+
+.feature-title {
     font-size: 26px;
     font-weight: 750;
     text-align: center;
@@ -51,36 +58,42 @@ body{
     margin-bottom: 0px;
     color: #181818;
 }
-.feature-paragraph{
-    color:#9FA1A2;
+
+.feature-paragraph {
+    color: #9FA1A2;
     text-align: center;
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 0px;
 }
-.feature-img-container{
+
+.feature-img-container {
     /* background-color: #E55473; */
     display: flex;
     justify-content: space-around;
     gap: 10px;
     padding: 30px 150px 0px 150px;
 }
-#img1-test{
+
+#img1-test {
     background-color: #F1DDE7;
     border-radius: 500px 500px 0px 0px;
     border: 0px;
 }
-#img2-test{
+
+#img2-test {
     background-color: #D9EFF0;
     border-radius: 500px 500px 0px 0px;
     border: 0px;
 }
-#img3-test{
+
+#img3-test {
     background-color: #E3EBDB;
     border-radius: 500px 500px 0px 0px;
     border: 0px;
 }
-.flower-name-container{
+
+.flower-name-container {
     display: flex;
     justify-content: space-around;
     gap: 10px;
@@ -91,21 +104,24 @@ body{
 }
 
 /* hot deal section */
-.hot-deal{
+.hot-deal {
     padding: 70px 250px 80px 250px;
     background-color: #f9dfe6;
     display: flex;
     align-items: center;
     justify-content: space-around
 }
-.hot-deal-content{
+
+.hot-deal-content {
     max-width: 550px;
     text-align: center;
 }
-.hot-deal .hot-deal-image{
+
+.hot-deal .hot-deal-image {
     width: 180px;
 }
-.hot-deal-title{
+
+.hot-deal-title {
     font-size: 26px;
     font-weight: 750;
     text-align: center;
@@ -113,29 +129,34 @@ body{
     margin-bottom: 0px;
     color: #181818;
 }
-.hot-deal-paragraph{
+
+.hot-deal-paragraph {
     text-align: center;
     font-size: 12px;
     margin-top: 20px;
-    color:#474747;
+    color: #474747;
     margin-bottom: 20px;
 
-#hot-deal-button{
-    text-align: center;
+    #hot-deal-button {
+        text-align: center;
+    }
 }
-}
-span{
+
+span {
     color: #E55473;
 }
-singup-btn{
+
+singup-btn {
     text-align: center;
 }
+
 /* Instagram Section */
-.instagram{
+.instagram {
     padding: 20px 250px 40px 250px;
     text-align: center;
 }
-.instagram-title{
+
+.instagram-title {
     font-size: 26px;
     font-weight: 750;
     text-align: center;
@@ -143,68 +164,85 @@ singup-btn{
     margin-bottom: 0px;
     color: #181818;
 }
-.instagram-paragraph{
+
+.instagram-paragraph {
     text-align: center;
     font-size: 14px;
     margin-top: 20px;
-    color:#474747;
+    color: #474747;
     margin-bottom: 0px;
 }
-.insta-img-container{
+
+.insta-img-container {
     display: flex;
     align-content: center;
     justify-content: center;
 
 }
-.insta-img{
+
+.insta-img {
     margin-right: 20px;
 }
+
 /* Final Section */
 
-.final-deal{
+.final-deal {
     text-align: center;
-    background-image: url('Rectangle\ 9.png')
+    background-image: url('Rectangle\ 9.png');
+    /* background-size: contain; */
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0px;
 }
-.final-deal-contant{
+
+/* .final-deal-contant{
     padding: 70px 70px;
-}
-.final-section-title{
+} */
+.final-section-title {
     color: #181818;
     font-size: 28px;
     padding-bottom: 0px;
     margin-bottom: 0px
 }
-.final-section-paragraph{
-    color:#9FA1A2;
+
+.final-section-paragraph {
+    color: #9FA1A2;
     font-size: 12px;
     padding-top: 5px;
 }
-.input{
+
+.input {
     width: 100%;
 }
+
 /* Footer Banner */
-.footer{
+.footer {
     margin: 0px;
     padding: 90px 350px;
     background-color: #111010;
     text-align: center;
     justify-content: center;
 }
-.footer-title{
+
+.footer-title {
     font-size: 36px;
     /* text-align: center; */
     margin-bottom: 5px;
 }
-.footer-paragraph{
+
+.footer-paragraph {
     color: #cfcece;
     font-size: 12px;
     /* text-align: center; */
     margin-top: 20px;
 }
-#sp{
+
+#sp {
     color: #ffffff;
 }
-.footer-paragraph2{
+
+.footer-paragraph2 {
     color: #595959;
     font-size: 12px;
 }
