@@ -163,9 +163,10 @@ singup-btn{
 
 .final-deal{
     text-align: center;
+    background-image: url('Rectangle\ 9.png')
 }
 .final-deal-contant{
-
+    padding: 70px 70px;
 }
 .final-section-title{
     color: #181818;
@@ -191,13 +192,13 @@ singup-btn{
 }
 .footer-title{
     font-size: 36px;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 5px;
 }
 .footer-paragraph{
     color: #cfcece;
     font-size: 12px;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 20px;
 }
 #sp{
